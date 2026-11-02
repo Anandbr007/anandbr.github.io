@@ -19,7 +19,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/anand-b-r-724640172/',
   github: 'https://github.com/Anandbr007',
   // Place the real CV at public/Anand_B_R_CV.pdf (see README).
-  resumeUrl: '/Anand_B_R_CV.pdf',
+  resumeUrl: `${import.meta.env.BASE_URL}Anand_B_R_CV.pdf`,
   initials: 'ABR',
 } as const
 

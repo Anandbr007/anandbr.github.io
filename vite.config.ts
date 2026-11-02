@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  // GitHub Pages project sites are served from /<repo-name>/, so asset URLs need that prefix.
+  base: '/Anand-portfolio/',
   plugins: [react(), tailwindcss()],
   build: {
     target: 'es2020',
